@@ -2,17 +2,22 @@ import { TypeAnimation } from "react-type-animation";
 
 const Introduction = () => {
   return (
-    <div id="introduction" className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 pb-20 pt-12">
-        <div className="lg:flex lg:pt-20 lg:pl-20 lg:justify-end lg:items-center">
-        <div className="text-xl text-center lg:text-4xl  lg:items-center">
+    <div id="introduction" className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 pb-20 ">
+        <div className="lg:flex lg:pt-20 lg:pl-20 lg:justify-end lg:items-center  pb-20">
+          <div className="pb-20"></div>
+          <div className="pb-20 "></div>
+          <div className="pb-20 "></div>
+          <div className="pb-20 "></div>
+          <div className="pb-10 "></div>
+        <div className="text-4xl text-center lg:text-4xl  lg:items-center pb-20 ">
          <div>
-         <h1 className="lg:pl-20 lg:pr-20">
+         <h1 className="lg:pl-20 lg:pr-20 text-gray-500">
           Hi, I'm{" "}
           <span className="text-pink-900 font-bold ">Sanyuktha Kumbla</span>
         </h1>
-        <h1>
+        <h1 className=" text-gray-500">
           {" "}and
-          <span className="text-pink-300 font-bold text-xl lg:text-4xl ">
+          <span className="text-pink-300 font-bold text-4xl lg:text-4xl ">
             <TypeAnimation
               sequence={[
                 " I am a Software Engineer",

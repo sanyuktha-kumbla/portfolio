@@ -10,7 +10,7 @@ const Timeline = () => {
             <div className="flex flex-col sm:flex-row items-center">
               <div className="flex justify-start w-full mx-auto items-center">
                 <div className="w-full sm:w-1/2 sm:pr-8">
-                  <div className="p-12 bg-white rounded shadow text-lg">
+                  <div className="p-4 bg-white rounded shadow text-lg">
                   <p className="text-pink-900 italic">September 2023 - Present</p>
                     <p className="text-gray-400">Fitch Ratings </p>
                     <p className="text-gray-500">Software Engineer</p>
