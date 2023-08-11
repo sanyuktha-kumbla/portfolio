@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './App.css';
 import Header from './Header';
 import Introduction from './Introduction';
@@ -8,7 +8,7 @@ import Skills from './Skills';
 import Work from './Work';
 import Contact from './Contact';
 import Footer from './Footer';
-import { useEffect } from 'react';
+
 
 function App() {
 

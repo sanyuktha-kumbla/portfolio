@@ -6,7 +6,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 w-3/5 gap-8">
           <div>
             {" "}
-            <img src={require("./assets/me.jpeg")} />
+            <img alt="My Profile" src={require("./assets/me.jpeg")} />
           </div>
           <div>
             <p className="pb-3 text-justify">
