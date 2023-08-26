@@ -9,20 +9,15 @@ const About = () => {
             <img alt="My Profile" src={require("./assets/me.jpeg")} />
           </div>
           <div>
-            <p className="pb-3 text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui
-              lectus, feugiat ut arcu sed, porttitor tempor nulla. Quisque non
-              nibh eu nisl malesuada bibendum ullamcorper at dui. Proin at
-              congue dui, vitae maximus nibh. Proin dapibus erat eu mauris
-              finibus, non mattis elit vehicula. Donec auctor ipsum elementum
-              nunc auctor consequat. Vestibulum velit neque, imperdiet nec nulla
-              sit amet, posuere laoreet mi. Aliquam pellentesque sagittis
-              tempus. Aliquam a gravida nunc. Fusce id erat sed nulla luctus
-              fringilla. Quisque lobortis sit amet purus pretium consectetur.
-              Duis ullamcorper, ex vel venenatis condimentum, felis odio mollis
-              justo, et molestie neque arcu ut metus. Sed erat sem, scelerisque
-              pretium tincidunt in, volutpat et sapien. Donec fermentum nec
-              ipsum non
+            <p className="pb-3 text-justify text-lg">
+             Hello there!
+             <br></br>
+             <br></br>
+             Glad to see you here! My name is Sanyuktha Kumbla. I have completed my bachelors in Computer Engineering from NMIMS University.
+             After graduating, I worked for about 3 years as a Frontend Software engineer at Reliance Industries. I joined Northeastern University to pursue my 
+              Master's in Information Systems. I am really passionate about building web applications and would love to build my career in the same.
+              I also enjoy hiking, kayaking, reading and singing during my free time.
+             
             </p>
             <div className="flex justify-center pt-10 gap-8 pb-3">
               <svg
